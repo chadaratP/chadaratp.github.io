@@ -16,7 +16,7 @@
     }
 
     .sidebar {
-      width: 25%;
+      width: 20%;
       padding: 1rem;
       background-color: #f0f0f0;
     }
@@ -43,8 +43,8 @@
     <div class="sidebar">
       <h1>Topics</h1>
       <ul>
-        <li><a href="#topic1">Getiing Starting </a></li>
-        <li><a href="#topic2">Learning</a></li>
+        <li><a href="#topic1">Getting Started with Generative AI </a></li>
+        <li><a href="#topic2">Machine Learning with AutoGluon </a></li>
         <li><a href="#topic3">Recap</a></li>
         <li><a href="#">Topic 4</a></li>
         <li><a href="#">Topic 5</a></li>
@@ -56,12 +56,11 @@
         including lessons, videos, quizzes, and more!</p>
 
       <br>
-      <H2 id='topic1'>Getting Starting</H2>
-      This is getting starting guide<br>
+      <H2 id='topic1'>Getting Started with Generative AI</H2>
+      This is getting Started guide<br>
       <br>
       <div>
       Generative AI, also known as generative artificial intelligence, is a field of AI focused on creating new data. This data can be anything from text, images, and audio to code and even 3D models. Here's a breakdown of how it works:
-
 Learning from Data: Generative AI models are trained on massive amounts of existing data. This data serves as the foundation for the model to understand patterns and relationships within that data type.
 Generating New Content: Once trained, the model can use its understanding to generate entirely new content that is similar to, but not identical to, the data it was trained on.
 Here are some real-world applications of generative AI:
@@ -75,8 +74,9 @@ Bias: Generative AI models can reflect the biases present in the data they are t
 Misuse of AI-generated content: There's a potential for misuse of AI-generated content, such as creating deepfakes or spreading misinformation.
 Overall, generative AI is a rapidly evolving field with the potential to revolutionize various industries. As it continues to develop, it's important to be aware of both its benefits and potential drawbacks.
 </div>
-      <H2 id='topic2'>Learning</H2>
-      THis is learning section
+      
+      <H2 id='topic2'> Machine Learning with AutoGluon </H2>
+      This is learning section
       step a<br>
       step b<br>
       step c<br>
@@ -156,8 +156,10 @@ Create a Jupyter Notebook: Click the "New" button in the Jupyter Notebook interf
 Import Libraries: In the first code cell, import the necessary libraries for working with your dataset, such as pandas (for CSV/Excel), NumPy (for numerical data), or scikit-learn (for machine learning tasks).
 
 Python
+        <pre>
 import pandas as pd
 # Or other libraries as needed
+          </pre>
 Use code with caution.
 content_copy
 Load Your Dataset: In a new code cell, use the appropriate function to load your dataset. Here are common examples:
@@ -167,11 +169,13 @@ Python
 data = pd.read_csv("your_dataset.csv")
 Use code with caution.
 content_copy
+        
 Excel:
 Python
 data = pd.read_excel("your_dataset.xlsx")
 Use code with caution.
 content_copy
+
 Text files:
 Python
 with open("your_dataset.txt", "r") as file:
